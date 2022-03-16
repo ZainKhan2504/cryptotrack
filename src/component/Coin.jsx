@@ -11,7 +11,7 @@ const Coin = ({ image, name, symbol, price, volume }) => {
         </div>
         <div className="coin-data">
           <p className="coin-price">${price}</p>
-          <p className="coin-volume">${volume.toLocalString()}</p>
+          <p className="coin-volume">${volume.toLocaleString()}</p>
         </div>
       </div>
     </div>
